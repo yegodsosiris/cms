@@ -1,0 +1,17 @@
+<project name="TemplateService" default="maven-clean-install" basedir="../">
+
+	<target name="maven-clean-install">
+		<exec osfamily="winnt" executable="D:/work/apps/Maven/bin/mvn.bat" failonerror="true">
+			<arg value="clean" />
+			<arg value="install" />
+			<arg value="-Dmaven.test.skip" />
+		</exec>
+	</target>
+
+	<target name="maven-eclipse-eclipse">
+		<exec osfamily="winnt" executable="D:/work/apps/Maven/bin/mvn.bat" failonerror="true">
+			<arg value="eclipse:eclipse" />
+		</exec>
+	</target>
+
+</project>

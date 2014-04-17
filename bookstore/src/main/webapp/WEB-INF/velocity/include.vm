@@ -1,0 +1,9 @@
+<h1>Included file</h1>
+How flexible am I?. I can be included in file system files as well as being parsed
+indirectly into a template.
+
+<form>
+Demo field 1<input type=text><p>
+Demo field 2<input type=text><p>
+<input type=submit class="btn">
+</form>

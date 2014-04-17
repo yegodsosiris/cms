@@ -1,0 +1,18 @@
+#includeTemplate("header",$vmodel )
+
+<h3>This is read from the file system</h3>
+This demo page shows how a developer can create VM files within the application and have those files
+read template data from Mongo.
+
+<h3>MVC app can read from the CMS too.</h3>
+#includeContent('genericContent', 'egg', 'content', $vmodel)
+
+<h3>Included files work</h3>
+#parse("include.vm")
+
+#acl('Admin', $vmodel)
+<h2>ACL Access</h2>
+ I am included because I have the right access privilege
+#end
+
+#includeTemplate("footer",$vmodel )

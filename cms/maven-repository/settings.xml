@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <localRepository>D:/Work/repository</localRepository>
+  <interactiveMode>true</interactiveMode>
+  <offline>false</offline>
+  <!-- profiles | NOTE: For profiles defined in the settings.xml, you are restricted to specifying only artifact | repositories, plugin 
+    repositories, and free-form properties to be used as configuration | variables for plugins in the POM. | -->
+  <profiles>
+   
+  </profiles>
+  <activeProfiles>
+  </activeProfiles>
+
+</settings>
+
